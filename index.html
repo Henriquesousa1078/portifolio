@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sobre mim</title>
+</head>
+
+<body>
+    <div class="mascara"></div>
+    <header>
+        <a href="#main-h1" class="a-header">Sobre mim</a>
+        <a href="#text-center" class="a-header">Meus projetos</a>
+        <a href="#div-form" class="a-header">entrar em contato</a>
+        <a href=""></a>
+    </header>
+    <div class="main-container">
+        <main>
+            <h1 id="main-h1">sobre mim</h1>
+            <p id="main-p">Olá meu nome é Henrique, Trabalho no mundo da programção, e nesse portfólio tem
+                alguns projetos que eu fiz. No momento só trabalho com front-end, com Javascript, HTML e CSS</p>
+
+            <a href="#text-center">Veja alguns de meus projetos</a>
+        </main>
+    </div>
+    <img src="" alt="">
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+    <h1 class="text-center" id="text-center">Veja aqui alguns de meus projetos</h1>
+
+    <div class="caixa-maior">
+        <div class="p-button">
+            <p class="acompanhamento-page">Projeto landingpage Mario Bros</p>
+            <button class="button-paragrafo" onclick="mostrarDescrição()">Olhar descrição do projeto</button>
+        </div>
+        <section id="mario-bross">
+            <p>Esse é um projeto de uma landing page interativa onde utiliso HTML, CSS e JavaScript</p>
+            <img src="./mario.png" alt="" class="img-descrição">
+            <a href="https://mariocabuloso.netlify.app" target="_blank"><button>veja a pagina aqui</button></a>
+        </section>
+
+    </div>
+    <div class="p-button">
+        <p class="acompanhamento-page">Projeto landingpage responsividade</p>
+        <button class="button-paragrafo" onclick="mostrarResponsivo()">Olhar descrição do projeto</button>
+    </div>
+    <section class="responsividade">
+        <p>esse é um projeto mais focado em responsividae do site uma pequena landing page utilizei HTML, CSS</p>
+        <img src="./responsividade.png" alt="" class="img-descrição">
+        <a href="https://66588e5e77ed4520e928f4c4--sage-dieffenbachia-288659.netlify.app" target="_blank"><button>veja a
+                pagina aqui</button></a>
+    </section>
+
+    <div class="p-button">
+        <p class="acompanhamento-page">Projeto conversor de moedas</p>
+        <button class="button-paragrafo" onclick="mostraConversor()">Olhar descrição do projeto</button>
+    </div>
+
+    <section class="bit-coin">
+        <p>Esse é um projeto de um conversor de moedas funcional utilizi JavaScript, HTML e CSS</p>
+        <img src="./bitcoin.png" alt="" class="img-descrição">
+
+        <a href="https://starlit-figolla-b65723.netlify.app" target="_blank"><button>veja a pagina aqui</button></a>
+    </section>
+    <div class="div-form" id="div-form">
+        <div class="entra-em-contato">
+            <h1 class="h1-form">Entre em contato por:</h1>
+            <p>Email: henriquesousa1078@gmail.com</p>
+            <a href="">
+                <img src="./3199256211543238897-128.png" alt="link-para-instagram" class="img-logo">
+            </a>
+            <a href="https://contate.me/henriquedev">
+                <img src="./8763902661566470623-128.png" alt="link-para-whatsApp" class="img-logo">
+            </a>
+        </div>
+        <form class="formulario-fale-conosco" action="https://formcarry.com/s/1zI3Odado_o" method="POST"
+            enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <input placeholder="Seu email" type="email" name="email">
+            <textarea placeholder="Descreva seu projeto aqui..." name="duvida"></textarea>
+            <button type="submit">Pedir orçamento</button>
+        </form>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
