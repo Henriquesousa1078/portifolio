@@ -46,7 +46,7 @@ h1{
     color: #5c159d;
     margin-bottom: 20px;
     font-weight: 500;
-    font-size: 90px;
+    font-size: 75px;
 }
 .text-center{
     display: flex;
@@ -58,7 +58,7 @@ p{
     color: #9c4be7;
     margin-bottom: 70px;
     font-weight: 300;
-    font-size: 38px;
+    font-size: 28px;
     margin-left: 25px;
 }
 a{
